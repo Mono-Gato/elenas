@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+      <link rel="icon" href="./src/static/icon-48x48.png">
+      <!--SEO-->
+      <meta name="description" content="Únete al universo elenas y logra tus sueños, regístrate y gana $500.000 pesos extra completando tus primeras 30 ventas.">
+      <meta name="robots" content="index, follow">
+      <!--Raleway fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <!--CSS bootstrap 4.6-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <!--Custom CSS-->
+      <link rel="stylesheet" href="./src/css/main.css">
+      <title>elenas - Únete al universo elenas y logra tus sueños</title>
+     
+     <!--Aos Css-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!--Aos Js-->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   </head>
+   <body>
+      <div class="header__background"></div>
+      <header class="header ">
+         <div  class="container row mx-auto">
+            <div data-aos="fade-right" data-aos-easing="ease" data-aos-duration="600" class="col-12 col-md-10 col-lg-7 mx-auto">
+               <div class="header__logo">
+                  <img src="./src/static/brand/Logo-Large.svg" alt="logo elenas" class="img-fluid d-lg-none d-block">
+                  <img src="./src/static/brand/Logo-Small.svg" alt="logo elenas" class="img-fluid d-lg-block d-none">
+               </div>
+               <div class="header__keyVisual">
+                  <picture>
+                     <source media="(min-width:992px)" srcset="./src/static/keyVisual/KeyVisual-l.png">
+                     <source media="(min-width:576px)" srcset="./src/static/keyVisual/KeyVisual-m.png">
+                     <img src="./src/static/keyvisual/KeyVisual-s.png" alt="Únete al universo elenas y logra tus sueños" class="img-fluid">
+                  </picture>
+               </div>
+            </div>
+            <div data-aos="fade-left" data-aos-easing="ease" data-aos-duration="600" id="registro" class=" col-12 col-md-10 col-lg-5 mx-auto d-lg-flex justify-content-center align-items-center" >
+               <div class="form__container">
+                  <h4>
+                     Regístrate y gana <b class="color--purple">$500.000 pesos extra</b> completando tus primeras <span class="color--green font-italic">30 ventas.</span> 
+                  </h4>
+                  <form >
+                     <div class="form-group">
+                        <label for="InputName">Nombre(s)</label>
+                        <input type="name" class="form-control" id="InputName">
+                     </div>
+                     <div class="form-group">
+                        <label for="InputLastName">Apellido(s)</label>
+                        <input type="family-name" class="form-control" id="InputLastName">
+                     </div>
+                     <div class="form-group">
+                        <label for="InputCellphone">Número celular:</label>
+                        <input type="tel" class="form-control" id="InputCellphone">
+                     </div>
+                     <div class="form-group">
+                        <label for="InputEmail">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="InputEmail">
+                     </div>
+                     <div class="form-group form-check col-10 col-sm-12 col-lg-11 col-xl-9 mx-auto d-flex">
+                        <input type="checkbox" class="form-check-input" id="CheckHabeasData">
+                        <label class="form-check-label" for="CheckHabeasData">He leído y acepto el <a type="button" data-toggle="modal" data-target="#habeasDataModal">tratamiento de
+                        datos personales.</a></label>
+                     </div>
+                     <button data-toggle="modal" data-target="#confirmacionModal" type="button" class="btn form__button">Registrarme</button>
+                     <a type="button" data-toggle="modal" data-target="#tycModal" class="form__anchor--tyc">Consulta <b class="color--purple">términos y condiciones.</b></a>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div class="emprender">
+            <div class="container ">
+               <div class="col-12 col-md-9 col-lg-12 mx-auto ">
+                   <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600">
+                    <h1>
+                        ¡Emprender con elenas es muy fácil!
+                     </h1>
+                     <p>
+                        <b>Ofrece y <span class="color--fuchsia">vende</span> productos</b> de las mejores marcas y proveedores de Colombia y el mundo a través de tus redes sociales.
+                     </p>
+                   </div>
+                  
+                  <div class="emprender__beneficios row">
+                     <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600" class="beneficio__container col-md-4">
+                        <div class="beneficio__image">
+                           <img src="./src/static/emprender/GanaDinero.svg" alt="Gana dinero" class="img-fluid">
+                        </div>
+                        <div class="beneficio__copy">
+                           <h4>Gana dinero</h4>
+                           <p>Elenas es la manera más sencilla de ganar un ingreso extra.</p>
+                        </div>
+                     </div>
+                     <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600" class="beneficio__container col-md-4">
+                        <div class="beneficio__image">
+                           <img src="./src/static/emprender/SinRiesgo.svg" alt="Sin riesgo" class="img-fluid">
+                        </div>
+                        <div class="beneficio__copy">
+                           <h4>Sin riesgo</h4>
+                           <p>No debes hacer inversiones para vender.</p>
+                        </div>
+                     </div>
+                     <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600" class="beneficio__container col-md-4">
+                        <div class="beneficio__image">
+                           <img src="./src/static/emprender/DesdeCasa.svg" alt="Desde tu casa" class="img-fluid">
+                        </div>
+                        <div class="beneficio__copy">
+                           <h4>Desde tu casa</h4>
+                           <p>Nosotros nos encargamos de la logística y el recaudo del dinero.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <a data-aos="zoom-in-up" data-aos-easing="ease" data-aos-duration="600" data-scroll href="#registro" class="btn form__button d-block">
+                  Registrarme
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="comenzar">
+            <div class="container">
+               <div class="col-12 col-md-9 col-lg-12 mx-auto ">
+                   <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600">
+                    <h1>
+                        ¿Cómo comenzar con elenas?
+                     </h1>
+                     <p>
+                        ¡Es muy fácil!, montar tu <b>emprendimiento digital con <span class="color--purple">elenas</span></b> solo toma <b class="color--fuchsia">5 minutos.</b>
+                     </p>
+                   </div>
+                  
+                  <div class="comenzar__pasoapaso row">
+                     <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600" class="paso__container col-md-4">
+                        <div class="paso__image">
+                           <img src="./src/static/comenzar/descarga.svg" alt="Descarga la app" class="img-fluid">
+                        </div>
+                        <div class="paso__copy">
+                           <h4>1. Descarga la app</h4>
+                           <p>Ingresa a la <b class="color--green">Play Store</b> y busca elenas o descargala directamente en este <a href="https://play.google.com/store/apps/details?id=la.elenas.embajadoras.application&hl=es" target="_blank">enlace.</a> </p>
+                        </div>
+                     </div>
+                     <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600" class="paso__container col-md-4">
+                        <div class="paso__image">
+                           <img src="./src/static/comenzar/cuenta.svg" alt="Crea tu cuenta" class="img-fluid">
+                        </div>
+                        <div class="paso__copy">
+                           <h4>2. Crea tu cuenta</h4>
+                           <p>Ingresa a la app en tu celular y sigue los pasos para crear tu cuenta.</p>
+                        </div>
+                     </div>
+                     <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600" class="paso__container col-md-4">
+                        <div class="paso__image">
+                           <img src="./src/static/comenzar/compartir.svg" alt="Comparte productos" class="img-fluid">
+                        </div>
+                        <div class="paso__copy">
+                           <h4>3. Comparte productos</h4>
+                           <p>¡Ofrece los productos a través de redes sociales y cierra tu <b class="color--green">primera venta!</b></p>
+                        </div>
+                     </div>
+                  </div>
+                  <a data-aos="zoom-in-up" data-aos-easing="ease" data-aos-duration="600" data-scroll href="#registro" class="btn form__button d-block">
+                    Registrarme
+                    </a>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer data-aos="fade-up" data-aos-easing="ease" data-aos-duration="600">
+         <div class="container">
+            <div class="col-12 col-md-9 col-lg-12 mx-auto ">
+               <div class="row">
+                  <div class="col-lg-3">
+                     <div class="footer__logo">
+                        <img src="./src/static/brand/Logo-Small.svg" alt="logo elenas">
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="footer__anchors">
+                        <a href="https://elenas.co/privacidad" target="_blank" >Privacidad</a>
+                        <a href="https://elenas.co/terminos" target="_blank" >Términos y condiciones</a>
+                        <a href="https://elenas.co/quienes-somos" target="_blank" >¿Quiénes somos?</a>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="footer__anchors">
+                        <span>Contacto:</span>
+                        <a href="mailto:hola@elenas.la">hola@elenas.la</a>
+                     </div>
+                  </div>
+               </div>
+               <hr>
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="footer__social">
+                        <a href="https://www.facebook.com/ElenasColombia/" target="_blank" >
+                        <img src="./src/static/social/facebook.svg" alt="Facebook Logo">
+                        </a>
+                        <a href="https://www.instagram.com/elenas.la/" target="_blank" >
+                        <img src="./src/static/social/instagram.svg" alt="Instagram Logo">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCgtc0JvmmGSWqla2O8AZH0g" target="_blank" >
+                        <img src="./src/static/social/youtube.svg" alt="Youtube Logo">
+                        </a>
+                        <a href="https://www.linkedin.com/company/elenas/" target="_blank" >
+                        <img src="./src/static/social/linkedIn.svg" alt="LinkedIn Logo">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 d-lg-flex">
+                     <span class="footer__derechos">
+                     Todos los derechos reservados © 2021
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--Modales-->
+      <!-- Modal -->
+      <div class="modal fade" id="confirmacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+                <div class="col d-flex justify-content-center flex-column">
+                    <img src="./src/static/brand/isotipo.svg" alt="elenas isotipo" class="img-fluid">
+              <h5 class="modal-title" id="exampleModalLabel">Tu registro ha sido exitoso</h5>
+                </div>
+                
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p>Descarga la app en la <b class="color--green">play store,</b> crea tu cuenta y comienza a vender. 
+                    <br><br>
+                    Por cada venta estarás más cerca de ser la <b>ganadora de <span class="color--green">$500.000 pesos extra.</span></b></p>
+                
+            </div>
+            <div class="modal-footer">
+              <a href="https://play.google.com/store/apps/details?id=la.elenas.embajadoras.application&hl=es" target="_blank" type="button" class="btn form__button">Descargar la app</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="tycModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+                <div class="col d-flex justify-content-center flex-column">
+                    <img src="./src/static/brand/isotipo.svg" alt="elenas isotipo" class="img-fluid">
+              <h5 class="modal-title" id="exampleModalLabel">Términos y condiciones
+                de la campaña</h5>
+                </div>
+                
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales, tellus vitae porta finibus, mi est porttitor turpis, vel ornare magna dui ut risus. Aenean fermentum lorem sem, non finibus purus dignissim et.
+<br><br>
+                    Nulla interdum metus vitae vulputate porttitor. Duis eu pharetra magna. Sed ut arcu lectus. Donec nec tristique erat, at rhoncus neque. Sed sed pretium augue. Fusce sed elit mollis, suscipit ipsum ac, eleifend felis. Mauris ultrices tortor ac elit tincidunt, eget luctus dolor fringilla.
+               <br><br>     
+                    Curabitur luctus neque vel fermentum dictum. Pellentesque sagittis ornare sem eget pretium. Nunc egestas aliquet elementum. Fusce id justo quis elit efficitur laoreet non in eros. Pellentesque consectetur dolor vel libero lacinia ultrices. Curabitur consequat hendrerit leo nec convallis. Vestibulum et mollis ante, sit amet luctus urna. Donec at nulla metus. Nam iaculis laoreet aliquam. Sed congue purus sed mi tristique cursus.</p>
+                
+            </div>
+            <div class="modal-footer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="habeasDataModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+                <div class="col d-flex justify-content-center flex-column">
+                    <img src="./src/static/brand/isotipo.svg" alt="elenas isotipo" class="img-fluid">
+              <h5 class="modal-title" id="exampleModalLabel">Tratamiento de datos personales</h5>
+                </div>
+                
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales, tellus vitae porta finibus, mi est porttitor turpis, vel ornare magna dui ut risus. Aenean fermentum lorem sem, non finibus purus dignissim et.
+<br><br>
+                    Nulla interdum metus vitae vulputate porttitor. Duis eu pharetra magna. Sed ut arcu lectus. Donec nec tristique erat, at rhoncus neque. Sed sed pretium augue. Fusce sed elit mollis, suscipit ipsum ac, eleifend felis. Mauris ultrices tortor ac elit tincidunt, eget luctus dolor fringilla.
+               <br><br>     
+                    Curabitur luctus neque vel fermentum dictum. Pellentesque sagittis ornare sem eget pretium. Nunc egestas aliquet elementum. Fusce id justo quis elit efficitur laoreet non in eros. Pellentesque consectetur dolor vel libero lacinia ultrices. Curabitur consequat hendrerit leo nec convallis. Vestibulum et mollis ante, sit amet luctus urna. Donec at nulla metus. Nam iaculis laoreet aliquam. Sed congue purus sed mi tristique cursus.</p>
+                
+            </div>
+            <div class="modal-footer"></div>
+          </div>
+        </div>
+      </div>
+      <!--script bootstrap-->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+      <!--Smooth-->
+      <script src="./src/js/smooth.js"></script>
+      <script src="./src/js/main.js"></script>
+
+   </body>
+</html>
